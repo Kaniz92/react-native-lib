@@ -1,4 +1,5 @@
-import { Text } from 'react-native'
+import React, { PureComponent } from 'react';
+import { Text } from 'react-native';
 
 export default (props) => {
   return (
