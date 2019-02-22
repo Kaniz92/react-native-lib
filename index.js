@@ -1,8 +1,16 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-export default (props) => {
-  return (
-    <Text {...props} numberOfLines={1} />
-  )
+class Line extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <Text>{'test'}</Text>
+    );
+  }
 }
+
+export default Line;
